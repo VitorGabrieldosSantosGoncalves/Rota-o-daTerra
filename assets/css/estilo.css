@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	align-items: center;
+	animation: translacao 20s linear infinite;
+	background-image: url("../../assets/img/fundo/espaco.png");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	animation: rotacionar 10s linear infinite;
+}
+
+.sol {
+	width: 265px;
+	height: 235px;
+	background-color: white;
+	border-radius: 50%;
+	background: url("https://lh3.googleusercontent.com/gEIBKrlt2K6-Rbds05ePZvzBkg4vdbEnIxIjgVhkmEgjCW1nKM1Gdgg_VeIH5T0zpq1pj9KpTeEWG1YbZ46fnNOzlAmHBgVnl-KXBlYaDP5vXlhIiyzbWadxn4gTara0kcwNdVxh5caOqIZr4QaGTVVvg1v94Vhejp-YHLe_JnK0h6eYFAt9PbjAkWz5ACb2FJfPGIVzHL_4mgmEPDjYTgNVENFLUqhS5KT5YChPBtmUCnYytSsFpRYoB5VuPQu3Z8xDi5gCG1pbkVH7SMcoi8zMSOy47yZDVL6MVSDqR1hodd6R6LBQ15QByjFWevUYRlmxampja05far_tuRw2XJpfv3C1IMpNPv66uJgTj7205uHTo6d0yNn4jLTXNm6LSbOZBE97tQu1rZzD_DaGr860aSiAT7zs4NmLVNLetuj9s6Lomtgucj47BwDQ0-WfPT0hFf9dW9lgV0sffpqN0YpG6kAhoeIDtshQ5S1snrmyL1eRT7KcxpCCbNn75ZFMMTMtj9F6qiF1iIus02x_jCVT4ryk0RSEWRRObzaeeMf-S7gyotH94ERFbTnVDS4YgZQkBYbSUJ_CvGo4dkyqjt3RzOQk-z1Qpg-TcapmAUGIpmRnlyhYXVco70nv2sCiU3JobY561VnWuOjMTbWPjfGpCwfv8ro6ZsVLz2ptgvbTIEVq2C9Wu3vfAhgFgCw1fUeWoyTyEIK2l1yb30zAv4Q=w267-h247-no?authuser=0");
+	background-size: cover;
+	box-shadow: 0px 0px 20px inset white, 0px 0px 40px #3a86ff;
+	animation: rotacionar 10s linear infinite;
+	display: flex; /*bastava inserir esta linha de código, estava inserindo no filho. */
+	margin-right: 30px;
+}
+
+.mercurio {
+	animation: rotacionar 15s linear infinite;
+	background-color: white;
+	background-size: cover;
+	background: url("../img/mercurio.png");
+	border-radius: 50%;
+	box-shadow: -25px -25px 25px black inset, 0px 0px 20px inset white, 0px 0px 40px #3a86ff;
+	display: flex; /*bastava inserir esta linha de código, estava inserindo no filho. */
+	height: 65px;
+	margin-right: 30px;
+	width: 65px;
+}
+
+.venus {
+	animation: rotacionar 15s linear infinite;
+	background-size: cover;
+	background-color: white;
+	background: url("https://lh3.googleusercontent.com/2bcMdfP4lBxBnh4kk87EZVMzVSYuRqtiGQ-j6EMEOVFS_LXq1o05AanJiYx6yEogw55UDXR37L4kq3jIJlsGEkhDnD56QaDuJCroICmX0fHuDl2hf9Tq6VrGnGChpLiCyRNoVxWWfn3q_aIbkQ8b4HKS3qL9U8ozEAEXPzXFDnvR3v11NXvAZG2zj6FhFUoBIyqnObxi-HAZ7-waWx1MSF_AdqxaCpoGK6ZkPAZwo1FkuiYhQjrBWWz819W2gMYdpSoMRODIBUO-ND4N6wp28WFDFXiudp--VVvsdQdvzylEENouf7LSa_aPQepvrXPlxLMKiHCFX8bnrsg9Ul5H-WEj9u5d_crMWEK_CYoQBsaqoK0MNC5x9OkhJyZgIcEUMBqmFMzjAMaYf0RtXlZfZmGr2cTxUDk7YAwWwt0sc4KqWf6PFa_uSyWrqR0GQaLslUlmX80-E2JRHxunqkaElx-taXWdpi_UhSoNPZlBd4CjQXkX4dYw8sFagLc_xUBqKcf7MW53o67AlqIEDZv3GQ_p1JVNgcH0atPCc_DIUyJqlPb-umjijsjTCoVg1w9oqaiC6WRTy-QPQ0gCKoZUwtmUlD-RKMAWqmHFCVrNUiEDyaqkrcYj3EfZRfjVRpxzMLd11Qde3kqxjJRfkgHgCKp6dxeOMkAjUtyXtJRPtAUi8ZOXpUUofqaUOjMKY2PO0n1bx_rPMnsm0YO-eaOGilQ=w340-h357-no?authuser=0");
+	border-radius: 50%;
+	box-shadow: -25px -25px 25px black inset, 0px 0px 20px inset white, 0px 0px 40px #3a86ff;
+	display: flex; /*bastava inserir esta linha de código, estava inserindo no filho. */
+	height: 75px;
+	margin-right: 30px;
+	width: 75px;
+}
+
+.globo {
+	animation: rotacionar 15s linear infinite;
+	background-color: white;
+	background-size: cover;
+	background: url("../../assets/img/terra.jpg");
+	border-radius: 50%;
+	box-shadow: -25px -25px 25px black inset, 0px 0px 20px inset white, 0px 0px 40px #3a86ff;
+	display: flex; /*bastava inserir esta linha de código, estava inserindo no filho. */
+	height: 95px;
+	object-fit: cover;
+	margin-right: 30px;
+	width: 95px;
+}
+
+.marte {
+	animation: rotacionar 10s linear infinite;
+	background-color: white;
+	background-size: cover;
+	background: url(../../assets/img/marte\ 3.jpg);
+	border-radius: 50%;
+	box-shadow: -25px -25px 25px black inset, 0px 0px 20px inset white, 0px 0px 40px #3a86ff;
+	display: flex; /*bastava inserir esta linha de código, estava inserindo no filho. */
+	height: 110px;
+	object-fit: cover;
+	margin-right: 30px;
+	width: 110px;
+}
+
+.jupiter {
+	animation: rotacionar 10s linear infinite;
+	background-color: white;
+	background-size: cover;
+	background: url(../../assets/img/jupiter.jpg);
+	border-radius: 50%;
+	box-shadow: -25px -25px 25px black inset, 0px 0px 20px inset white, 0px 0px 40px #3a86ff;
+	display: flex; /*bastava inserir esta linha de código, estava inserindo no filho. */
+	height: 130px;
+	object-fit: cover;
+	margin-right: 30px;
+	width: 130px;
+}
+
+.saturno {
+	animation: rotacionar 10s linear infinite;
+	background-color: white;
+	background-size: cover;
+	background: url(../../assets/img/saturno.jpg);
+	border-radius: 50%;
+	box-shadow: -25px -25px 25px black inset, 0px 0px 20px inset white, 0px 0px 40px #3a86ff;
+	display: flex; /*bastava inserir esta linha de código, estava inserindo no filho. */
+	height: 160px;
+	object-fit: cover;
+	margin-right: 30px;
+	width: 160px;
+	align-items: center;
+}
+
+.urano {
+	animation: rotacionar 10s linear infinite;
+	background-color: white;
+	background-size: cover;
+	background: url(../../assets/img/urano.jpg);
+	border-radius: 50%;
+	box-shadow: -25px -25px 25px black inset, 0px 0px 20px inset white, 0px 0px 40px #3a86ff;
+	display: flex; /*bastava inserir esta linha de código, estava inserindo no filho. */
+	height: 180px;
+	object-fit: cover;
+	margin-right: 30px;
+	width: 180px;
+}
+
+.netuno {
+	animation: rotacionar 10s linear infinite;
+	background-color: white;
+	background-size: cover;
+	background: url(../../assets/img/netuno.jpg);
+	border-radius: 50%;
+	box-shadow: -25px -25px 25px black inset, 0px 0px 20px inset white, 0px 0px 40px #3a86ff;
+	display: flex; /*bastava inserir esta linha de código, estava inserindo no filho. */
+	height: 190px;
+	object-fit: cover;
+	margin-right: 30px;
+	width: 190px;
+}
+
+@keyframes rotacionar {
+	to {
+		background-position: -200% ;
+	}
+}
+
+@keyframes translacao {
+	0% {
+		background-position: 0% ;
+	}
+	100% {
+		background-position: -1000% ;
+	}
+}
